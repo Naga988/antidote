@@ -137,6 +137,254 @@
                             "deprecationReason": null
                         },
                         {
+                            "name": "sectionBlogParagraph",
+                            "description": null,
+                            "args": [
+                                {
+                                    "name": "id",
+                                    "description": null,
+                                    "type": {
+                                        "kind": "NON_NULL",
+                                        "name": null,
+                                        "ofType": {
+                                            "kind": "SCALAR",
+                                            "name": "String",
+                                            "ofType": null
+                                        }
+                                    },
+                                    "defaultValue": null
+                                },
+                                {
+                                    "name": "preview",
+                                    "description": null,
+                                    "type": {
+                                        "kind": "SCALAR",
+                                        "name": "Boolean",
+                                        "ofType": null
+                                    },
+                                    "defaultValue": null
+                                },
+                                {
+                                    "name": "locale",
+                                    "description": null,
+                                    "type": {
+                                        "kind": "SCALAR",
+                                        "name": "String",
+                                        "ofType": null
+                                    },
+                                    "defaultValue": null
+                                }
+                            ],
+                            "type": {
+                                "kind": "OBJECT",
+                                "name": "SectionBlogParagraph",
+                                "ofType": null
+                            },
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "sectionBlogParagraphCollection",
+                            "description": null,
+                            "args": [
+                                {
+                                    "name": "skip",
+                                    "description": null,
+                                    "type": {
+                                        "kind": "SCALAR",
+                                        "name": "Int",
+                                        "ofType": null
+                                    },
+                                    "defaultValue": "0"
+                                },
+                                {
+                                    "name": "limit",
+                                    "description": null,
+                                    "type": {
+                                        "kind": "SCALAR",
+                                        "name": "Int",
+                                        "ofType": null
+                                    },
+                                    "defaultValue": "100"
+                                },
+                                {
+                                    "name": "preview",
+                                    "description": null,
+                                    "type": {
+                                        "kind": "SCALAR",
+                                        "name": "Boolean",
+                                        "ofType": null
+                                    },
+                                    "defaultValue": null
+                                },
+                                {
+                                    "name": "locale",
+                                    "description": null,
+                                    "type": {
+                                        "kind": "SCALAR",
+                                        "name": "String",
+                                        "ofType": null
+                                    },
+                                    "defaultValue": null
+                                },
+                                {
+                                    "name": "where",
+                                    "description": null,
+                                    "type": {
+                                        "kind": "INPUT_OBJECT",
+                                        "name": "SectionBlogParagraphFilter",
+                                        "ofType": null
+                                    },
+                                    "defaultValue": null
+                                },
+                                {
+                                    "name": "order",
+                                    "description": null,
+                                    "type": {
+                                        "kind": "LIST",
+                                        "name": null,
+                                        "ofType": {
+                                            "kind": "ENUM",
+                                            "name": "SectionBlogParagraphOrder",
+                                            "ofType": null
+                                        }
+                                    },
+                                    "defaultValue": null
+                                }
+                            ],
+                            "type": {
+                                "kind": "OBJECT",
+                                "name": "SectionBlogParagraphCollection",
+                                "ofType": null
+                            },
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "sectionRichText",
+                            "description": null,
+                            "args": [
+                                {
+                                    "name": "id",
+                                    "description": null,
+                                    "type": {
+                                        "kind": "NON_NULL",
+                                        "name": null,
+                                        "ofType": {
+                                            "kind": "SCALAR",
+                                            "name": "String",
+                                            "ofType": null
+                                        }
+                                    },
+                                    "defaultValue": null
+                                },
+                                {
+                                    "name": "preview",
+                                    "description": null,
+                                    "type": {
+                                        "kind": "SCALAR",
+                                        "name": "Boolean",
+                                        "ofType": null
+                                    },
+                                    "defaultValue": null
+                                },
+                                {
+                                    "name": "locale",
+                                    "description": null,
+                                    "type": {
+                                        "kind": "SCALAR",
+                                        "name": "String",
+                                        "ofType": null
+                                    },
+                                    "defaultValue": null
+                                }
+                            ],
+                            "type": {
+                                "kind": "OBJECT",
+                                "name": "SectionRichText",
+                                "ofType": null
+                            },
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "sectionRichTextCollection",
+                            "description": null,
+                            "args": [
+                                {
+                                    "name": "skip",
+                                    "description": null,
+                                    "type": {
+                                        "kind": "SCALAR",
+                                        "name": "Int",
+                                        "ofType": null
+                                    },
+                                    "defaultValue": "0"
+                                },
+                                {
+                                    "name": "limit",
+                                    "description": null,
+                                    "type": {
+                                        "kind": "SCALAR",
+                                        "name": "Int",
+                                        "ofType": null
+                                    },
+                                    "defaultValue": "100"
+                                },
+                                {
+                                    "name": "preview",
+                                    "description": null,
+                                    "type": {
+                                        "kind": "SCALAR",
+                                        "name": "Boolean",
+                                        "ofType": null
+                                    },
+                                    "defaultValue": null
+                                },
+                                {
+                                    "name": "locale",
+                                    "description": null,
+                                    "type": {
+                                        "kind": "SCALAR",
+                                        "name": "String",
+                                        "ofType": null
+                                    },
+                                    "defaultValue": null
+                                },
+                                {
+                                    "name": "where",
+                                    "description": null,
+                                    "type": {
+                                        "kind": "INPUT_OBJECT",
+                                        "name": "SectionRichTextFilter",
+                                        "ofType": null
+                                    },
+                                    "defaultValue": null
+                                },
+                                {
+                                    "name": "order",
+                                    "description": null,
+                                    "type": {
+                                        "kind": "LIST",
+                                        "name": null,
+                                        "ofType": {
+                                            "kind": "ENUM",
+                                            "name": "SectionRichTextOrder",
+                                            "ofType": null
+                                        }
+                                    },
+                                    "defaultValue": null
+                                }
+                            ],
+                            "type": {
+                                "kind": "OBJECT",
+                                "name": "SectionRichTextCollection",
+                                "ofType": null
+                            },
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
                             "name": "articleOverview",
                             "description": null,
                             "args": [
@@ -875,130 +1123,6 @@
                             "type": {
                                 "kind": "OBJECT",
                                 "name": "SectionBlogPanelCollection",
-                                "ofType": null
-                            },
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sectionBlogParagraph",
-                            "description": null,
-                            "args": [
-                                {
-                                    "name": "id",
-                                    "description": null,
-                                    "type": {
-                                        "kind": "NON_NULL",
-                                        "name": null,
-                                        "ofType": {
-                                            "kind": "SCALAR",
-                                            "name": "String",
-                                            "ofType": null
-                                        }
-                                    },
-                                    "defaultValue": null
-                                },
-                                {
-                                    "name": "preview",
-                                    "description": null,
-                                    "type": {
-                                        "kind": "SCALAR",
-                                        "name": "Boolean",
-                                        "ofType": null
-                                    },
-                                    "defaultValue": null
-                                },
-                                {
-                                    "name": "locale",
-                                    "description": null,
-                                    "type": {
-                                        "kind": "SCALAR",
-                                        "name": "String",
-                                        "ofType": null
-                                    },
-                                    "defaultValue": null
-                                }
-                            ],
-                            "type": {
-                                "kind": "OBJECT",
-                                "name": "SectionBlogParagraph",
-                                "ofType": null
-                            },
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sectionBlogParagraphCollection",
-                            "description": null,
-                            "args": [
-                                {
-                                    "name": "skip",
-                                    "description": null,
-                                    "type": {
-                                        "kind": "SCALAR",
-                                        "name": "Int",
-                                        "ofType": null
-                                    },
-                                    "defaultValue": "0"
-                                },
-                                {
-                                    "name": "limit",
-                                    "description": null,
-                                    "type": {
-                                        "kind": "SCALAR",
-                                        "name": "Int",
-                                        "ofType": null
-                                    },
-                                    "defaultValue": "100"
-                                },
-                                {
-                                    "name": "preview",
-                                    "description": null,
-                                    "type": {
-                                        "kind": "SCALAR",
-                                        "name": "Boolean",
-                                        "ofType": null
-                                    },
-                                    "defaultValue": null
-                                },
-                                {
-                                    "name": "locale",
-                                    "description": null,
-                                    "type": {
-                                        "kind": "SCALAR",
-                                        "name": "String",
-                                        "ofType": null
-                                    },
-                                    "defaultValue": null
-                                },
-                                {
-                                    "name": "where",
-                                    "description": null,
-                                    "type": {
-                                        "kind": "INPUT_OBJECT",
-                                        "name": "SectionBlogParagraphFilter",
-                                        "ofType": null
-                                    },
-                                    "defaultValue": null
-                                },
-                                {
-                                    "name": "order",
-                                    "description": null,
-                                    "type": {
-                                        "kind": "LIST",
-                                        "name": null,
-                                        "ofType": {
-                                            "kind": "ENUM",
-                                            "name": "SectionBlogParagraphOrder",
-                                            "ofType": null
-                                        }
-                                    },
-                                    "defaultValue": null
-                                }
-                            ],
-                            "type": {
-                                "kind": "OBJECT",
-                                "name": "SectionBlogParagraphCollection",
                                 "ofType": null
                             },
                             "isDeprecated": false,
@@ -3107,130 +3231,6 @@
                             "type": {
                                 "kind": "OBJECT",
                                 "name": "SubscribeCollection",
-                                "ofType": null
-                            },
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sectionRichText",
-                            "description": null,
-                            "args": [
-                                {
-                                    "name": "id",
-                                    "description": null,
-                                    "type": {
-                                        "kind": "NON_NULL",
-                                        "name": null,
-                                        "ofType": {
-                                            "kind": "SCALAR",
-                                            "name": "String",
-                                            "ofType": null
-                                        }
-                                    },
-                                    "defaultValue": null
-                                },
-                                {
-                                    "name": "preview",
-                                    "description": null,
-                                    "type": {
-                                        "kind": "SCALAR",
-                                        "name": "Boolean",
-                                        "ofType": null
-                                    },
-                                    "defaultValue": null
-                                },
-                                {
-                                    "name": "locale",
-                                    "description": null,
-                                    "type": {
-                                        "kind": "SCALAR",
-                                        "name": "String",
-                                        "ofType": null
-                                    },
-                                    "defaultValue": null
-                                }
-                            ],
-                            "type": {
-                                "kind": "OBJECT",
-                                "name": "SectionRichText",
-                                "ofType": null
-                            },
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sectionRichTextCollection",
-                            "description": null,
-                            "args": [
-                                {
-                                    "name": "skip",
-                                    "description": null,
-                                    "type": {
-                                        "kind": "SCALAR",
-                                        "name": "Int",
-                                        "ofType": null
-                                    },
-                                    "defaultValue": "0"
-                                },
-                                {
-                                    "name": "limit",
-                                    "description": null,
-                                    "type": {
-                                        "kind": "SCALAR",
-                                        "name": "Int",
-                                        "ofType": null
-                                    },
-                                    "defaultValue": "100"
-                                },
-                                {
-                                    "name": "preview",
-                                    "description": null,
-                                    "type": {
-                                        "kind": "SCALAR",
-                                        "name": "Boolean",
-                                        "ofType": null
-                                    },
-                                    "defaultValue": null
-                                },
-                                {
-                                    "name": "locale",
-                                    "description": null,
-                                    "type": {
-                                        "kind": "SCALAR",
-                                        "name": "String",
-                                        "ofType": null
-                                    },
-                                    "defaultValue": null
-                                },
-                                {
-                                    "name": "where",
-                                    "description": null,
-                                    "type": {
-                                        "kind": "INPUT_OBJECT",
-                                        "name": "SectionRichTextFilter",
-                                        "ofType": null
-                                    },
-                                    "defaultValue": null
-                                },
-                                {
-                                    "name": "order",
-                                    "description": null,
-                                    "type": {
-                                        "kind": "LIST",
-                                        "name": null,
-                                        "ofType": {
-                                            "kind": "ENUM",
-                                            "name": "SectionRichTextOrder",
-                                            "ofType": null
-                                        }
-                                    },
-                                    "defaultValue": null
-                                }
-                            ],
-                            "type": {
-                                "kind": "OBJECT",
-                                "name": "SectionRichTextCollection",
                                 "ofType": null
                             },
                             "isDeprecated": false,
@@ -7668,73 +7668,6 @@
                             "deprecationReason": null
                         },
                         {
-                            "name": "templateArticleCollection",
-                            "description": null,
-                            "args": [
-                                {
-                                    "name": "skip",
-                                    "description": null,
-                                    "type": {
-                                        "kind": "SCALAR",
-                                        "name": "Int",
-                                        "ofType": null
-                                    },
-                                    "defaultValue": "0"
-                                },
-                                {
-                                    "name": "limit",
-                                    "description": null,
-                                    "type": {
-                                        "kind": "SCALAR",
-                                        "name": "Int",
-                                        "ofType": null
-                                    },
-                                    "defaultValue": "100"
-                                },
-                                {
-                                    "name": "preview",
-                                    "description": null,
-                                    "type": {
-                                        "kind": "SCALAR",
-                                        "name": "Boolean",
-                                        "ofType": null
-                                    },
-                                    "defaultValue": null
-                                },
-                                {
-                                    "name": "locale",
-                                    "description": null,
-                                    "type": {
-                                        "kind": "SCALAR",
-                                        "name": "String",
-                                        "ofType": null
-                                    },
-                                    "defaultValue": null
-                                },
-                                {
-                                    "name": "order",
-                                    "description": null,
-                                    "type": {
-                                        "kind": "LIST",
-                                        "name": null,
-                                        "ofType": {
-                                            "kind": "ENUM",
-                                            "name": "ImageWithFocalPointLinkingCollectionsTemplateArticleCollectionOrder",
-                                            "ofType": null
-                                        }
-                                    },
-                                    "defaultValue": null
-                                }
-                            ],
-                            "type": {
-                                "kind": "OBJECT",
-                                "name": "TemplateArticleCollection",
-                                "ofType": null
-                            },
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
                             "name": "sectionBlogParagraphCollection",
                             "description": null,
                             "args": [
@@ -7796,6 +7729,73 @@
                             "type": {
                                 "kind": "OBJECT",
                                 "name": "SectionBlogParagraphCollection",
+                                "ofType": null
+                            },
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "templateArticleCollection",
+                            "description": null,
+                            "args": [
+                                {
+                                    "name": "skip",
+                                    "description": null,
+                                    "type": {
+                                        "kind": "SCALAR",
+                                        "name": "Int",
+                                        "ofType": null
+                                    },
+                                    "defaultValue": "0"
+                                },
+                                {
+                                    "name": "limit",
+                                    "description": null,
+                                    "type": {
+                                        "kind": "SCALAR",
+                                        "name": "Int",
+                                        "ofType": null
+                                    },
+                                    "defaultValue": "100"
+                                },
+                                {
+                                    "name": "preview",
+                                    "description": null,
+                                    "type": {
+                                        "kind": "SCALAR",
+                                        "name": "Boolean",
+                                        "ofType": null
+                                    },
+                                    "defaultValue": null
+                                },
+                                {
+                                    "name": "locale",
+                                    "description": null,
+                                    "type": {
+                                        "kind": "SCALAR",
+                                        "name": "String",
+                                        "ofType": null
+                                    },
+                                    "defaultValue": null
+                                },
+                                {
+                                    "name": "order",
+                                    "description": null,
+                                    "type": {
+                                        "kind": "LIST",
+                                        "name": null,
+                                        "ofType": {
+                                            "kind": "ENUM",
+                                            "name": "ImageWithFocalPointLinkingCollectionsTemplateArticleCollectionOrder",
+                                            "ofType": null
+                                        }
+                                    },
+                                    "defaultValue": null
+                                }
+                            ],
+                            "type": {
+                                "kind": "OBJECT",
+                                "name": "TemplateArticleCollection",
                                 "ofType": null
                             },
                             "isDeprecated": false,
@@ -8478,209 +8478,6 @@
                     "possibleTypes": null
                 },
                 {
-                    "kind": "ENUM",
-                    "name": "ImageWithFocalPointLinkingCollectionsTemplateArticleCollectionOrder",
-                    "description": null,
-                    "fields": null,
-                    "inputFields": null,
-                    "interfaces": null,
-                    "enumValues": [
-                        {
-                            "name": "name_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "name_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "url_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "url_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "title_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "title_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "shortDescription_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "shortDescription_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "readingTime_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "readingTime_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "authorName_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "authorName_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "authorJobTitle_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "authorJobTitle_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "metaTitle_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "metaTitle_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "videoUrl_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "videoUrl_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "metaDescription_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "metaDescription_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "hideBreadcrumbs_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "hideBreadcrumbs_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "disableIndexing_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "disableIndexing_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_id_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_id_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_publishedAt_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_publishedAt_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_firstPublishedAt_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_firstPublishedAt_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_publishedVersion_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_publishedVersion_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        }
-                    ],
-                    "possibleTypes": null
-                },
-                {
                     "kind": "OBJECT",
                     "name": "SectionBlogParagraphCollection",
                     "description": null,
@@ -9048,7 +8845,7 @@
                             "deprecationReason": null
                         },
                         {
-                            "name": "isMobileImagePositionTop",
+                            "name": "imagePositionMobile",
                             "description": null,
                             "args": [
                                 {
@@ -9064,7 +8861,30 @@
                             ],
                             "type": {
                                 "kind": "SCALAR",
-                                "name": "Boolean",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "textAlignment",
+                            "description": null,
+                            "args": [
+                                {
+                                    "name": "locale",
+                                    "description": null,
+                                    "type": {
+                                        "kind": "SCALAR",
+                                        "name": "String",
+                                        "ofType": null
+                                    },
+                                    "defaultValue": null
+                                }
+                            ],
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
                                 "ofType": null
                             },
                             "isDeprecated": false,
@@ -17910,6 +17730,29 @@
                             "type": {
                                 "kind": "OBJECT",
                                 "name": "SectionRichTextText",
+                                "ofType": null
+                            },
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "textAlignmnet",
+                            "description": null,
+                            "args": [
+                                {
+                                    "name": "locale",
+                                    "description": null,
+                                    "type": {
+                                        "kind": "SCALAR",
+                                        "name": "String",
+                                        "ofType": null
+                                    },
+                                    "defaultValue": null
+                                }
+                            ],
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
                                 "ofType": null
                             },
                             "isDeprecated": false,
@@ -39198,13 +39041,228 @@
                             "deprecationReason": null
                         },
                         {
-                            "name": "isMobileImagePositionTop_ASC",
+                            "name": "imagePositionMobile_ASC",
                             "description": null,
                             "isDeprecated": false,
                             "deprecationReason": null
                         },
                         {
-                            "name": "isMobileImagePositionTop_DESC",
+                            "name": "imagePositionMobile_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "textAlignment_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "textAlignment_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "sys_id_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "sys_id_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "sys_publishedAt_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "sys_publishedAt_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "sys_firstPublishedAt_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "sys_firstPublishedAt_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "sys_publishedVersion_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "sys_publishedVersion_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        }
+                    ],
+                    "possibleTypes": null
+                },
+                {
+                    "kind": "ENUM",
+                    "name": "ImageWithFocalPointLinkingCollectionsTemplateArticleCollectionOrder",
+                    "description": null,
+                    "fields": null,
+                    "inputFields": null,
+                    "interfaces": null,
+                    "enumValues": [
+                        {
+                            "name": "name_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "name_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "url_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "url_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "title_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "title_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "shortDescription_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "shortDescription_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "readingTime_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "readingTime_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "authorName_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "authorName_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "authorJobTitle_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "authorJobTitle_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "metaTitle_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "metaTitle_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "videoUrl_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "videoUrl_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "metaDescription_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "metaDescription_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "hideBreadcrumbs_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "hideBreadcrumbs_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "disableIndexing_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "disableIndexing_DESC",
                             "description": null,
                             "isDeprecated": false,
                             "deprecationReason": null
@@ -47457,6 +47515,1231 @@
                     "possibleTypes": null
                 },
                 {
+                    "kind": "INPUT_OBJECT",
+                    "name": "SectionBlogParagraphFilter",
+                    "description": null,
+                    "fields": null,
+                    "inputFields": [
+                        {
+                            "name": "image",
+                            "description": null,
+                            "type": {
+                                "kind": "INPUT_OBJECT",
+                                "name": "cfImageWithFocalPointNestedFilter",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "imageDesktop",
+                            "description": null,
+                            "type": {
+                                "kind": "INPUT_OBJECT",
+                                "name": "cfImageWithFocalPointNestedFilter",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "sys",
+                            "description": null,
+                            "type": {
+                                "kind": "INPUT_OBJECT",
+                                "name": "SysFilter",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "contentfulMetadata",
+                            "description": null,
+                            "type": {
+                                "kind": "INPUT_OBJECT",
+                                "name": "ContentfulMetadataFilter",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "name_exists",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "Boolean",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "name",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "name_not",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "name_in",
+                            "description": null,
+                            "type": {
+                                "kind": "LIST",
+                                "name": null,
+                                "ofType": {
+                                    "kind": "SCALAR",
+                                    "name": "String",
+                                    "ofType": null
+                                }
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "name_not_in",
+                            "description": null,
+                            "type": {
+                                "kind": "LIST",
+                                "name": null,
+                                "ofType": {
+                                    "kind": "SCALAR",
+                                    "name": "String",
+                                    "ofType": null
+                                }
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "name_contains",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "name_not_contains",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "description_exists",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "Boolean",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "description_contains",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "description_not_contains",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "image_exists",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "Boolean",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "imageDesktop_exists",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "Boolean",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "imagePosition_exists",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "Boolean",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "imagePosition",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "imagePosition_not",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "imagePosition_in",
+                            "description": null,
+                            "type": {
+                                "kind": "LIST",
+                                "name": null,
+                                "ofType": {
+                                    "kind": "SCALAR",
+                                    "name": "String",
+                                    "ofType": null
+                                }
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "imagePosition_not_in",
+                            "description": null,
+                            "type": {
+                                "kind": "LIST",
+                                "name": null,
+                                "ofType": {
+                                    "kind": "SCALAR",
+                                    "name": "String",
+                                    "ofType": null
+                                }
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "imagePosition_contains",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "imagePosition_not_contains",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "backgroundColor_exists",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "Boolean",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "backgroundColor",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "backgroundColor_not",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "backgroundColor_in",
+                            "description": null,
+                            "type": {
+                                "kind": "LIST",
+                                "name": null,
+                                "ofType": {
+                                    "kind": "SCALAR",
+                                    "name": "String",
+                                    "ofType": null
+                                }
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "backgroundColor_not_in",
+                            "description": null,
+                            "type": {
+                                "kind": "LIST",
+                                "name": null,
+                                "ofType": {
+                                    "kind": "SCALAR",
+                                    "name": "String",
+                                    "ofType": null
+                                }
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "backgroundColor_contains",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "backgroundColor_not_contains",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "buttonText_exists",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "Boolean",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "buttonText",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "buttonText_not",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "buttonText_in",
+                            "description": null,
+                            "type": {
+                                "kind": "LIST",
+                                "name": null,
+                                "ofType": {
+                                    "kind": "SCALAR",
+                                    "name": "String",
+                                    "ofType": null
+                                }
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "buttonText_not_in",
+                            "description": null,
+                            "type": {
+                                "kind": "LIST",
+                                "name": null,
+                                "ofType": {
+                                    "kind": "SCALAR",
+                                    "name": "String",
+                                    "ofType": null
+                                }
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "buttonText_contains",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "buttonText_not_contains",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "buttonUrl_exists",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "Boolean",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "buttonUrl",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "buttonUrl_not",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "buttonUrl_in",
+                            "description": null,
+                            "type": {
+                                "kind": "LIST",
+                                "name": null,
+                                "ofType": {
+                                    "kind": "SCALAR",
+                                    "name": "String",
+                                    "ofType": null
+                                }
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "buttonUrl_not_in",
+                            "description": null,
+                            "type": {
+                                "kind": "LIST",
+                                "name": null,
+                                "ofType": {
+                                    "kind": "SCALAR",
+                                    "name": "String",
+                                    "ofType": null
+                                }
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "buttonUrl_contains",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "buttonUrl_not_contains",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "imagePositionMobile_exists",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "Boolean",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "imagePositionMobile",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "imagePositionMobile_not",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "imagePositionMobile_in",
+                            "description": null,
+                            "type": {
+                                "kind": "LIST",
+                                "name": null,
+                                "ofType": {
+                                    "kind": "SCALAR",
+                                    "name": "String",
+                                    "ofType": null
+                                }
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "imagePositionMobile_not_in",
+                            "description": null,
+                            "type": {
+                                "kind": "LIST",
+                                "name": null,
+                                "ofType": {
+                                    "kind": "SCALAR",
+                                    "name": "String",
+                                    "ofType": null
+                                }
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "imagePositionMobile_contains",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "imagePositionMobile_not_contains",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "textAlignment_exists",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "Boolean",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "textAlignment",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "textAlignment_not",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "textAlignment_in",
+                            "description": null,
+                            "type": {
+                                "kind": "LIST",
+                                "name": null,
+                                "ofType": {
+                                    "kind": "SCALAR",
+                                    "name": "String",
+                                    "ofType": null
+                                }
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "textAlignment_not_in",
+                            "description": null,
+                            "type": {
+                                "kind": "LIST",
+                                "name": null,
+                                "ofType": {
+                                    "kind": "SCALAR",
+                                    "name": "String",
+                                    "ofType": null
+                                }
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "textAlignment_contains",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "textAlignment_not_contains",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "OR",
+                            "description": null,
+                            "type": {
+                                "kind": "LIST",
+                                "name": null,
+                                "ofType": {
+                                    "kind": "INPUT_OBJECT",
+                                    "name": "SectionBlogParagraphFilter",
+                                    "ofType": null
+                                }
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "AND",
+                            "description": null,
+                            "type": {
+                                "kind": "LIST",
+                                "name": null,
+                                "ofType": {
+                                    "kind": "INPUT_OBJECT",
+                                    "name": "SectionBlogParagraphFilter",
+                                    "ofType": null
+                                }
+                            },
+                            "defaultValue": null
+                        }
+                    ],
+                    "interfaces": null,
+                    "enumValues": null,
+                    "possibleTypes": null
+                },
+                {
+                    "kind": "ENUM",
+                    "name": "SectionBlogParagraphOrder",
+                    "description": null,
+                    "fields": null,
+                    "inputFields": null,
+                    "interfaces": null,
+                    "enumValues": [
+                        {
+                            "name": "name_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "name_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "imagePosition_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "imagePosition_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "backgroundColor_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "backgroundColor_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "buttonText_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "buttonText_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "buttonUrl_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "buttonUrl_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "imagePositionMobile_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "imagePositionMobile_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "textAlignment_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "textAlignment_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "sys_id_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "sys_id_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "sys_publishedAt_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "sys_publishedAt_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "sys_firstPublishedAt_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "sys_firstPublishedAt_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "sys_publishedVersion_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "sys_publishedVersion_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        }
+                    ],
+                    "possibleTypes": null
+                },
+                {
+                    "kind": "OBJECT",
+                    "name": "SectionRichTextCollection",
+                    "description": null,
+                    "fields": [
+                        {
+                            "name": "total",
+                            "description": null,
+                            "args": [],
+                            "type": {
+                                "kind": "NON_NULL",
+                                "name": null,
+                                "ofType": {
+                                    "kind": "SCALAR",
+                                    "name": "Int",
+                                    "ofType": null
+                                }
+                            },
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "skip",
+                            "description": null,
+                            "args": [],
+                            "type": {
+                                "kind": "NON_NULL",
+                                "name": null,
+                                "ofType": {
+                                    "kind": "SCALAR",
+                                    "name": "Int",
+                                    "ofType": null
+                                }
+                            },
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "limit",
+                            "description": null,
+                            "args": [],
+                            "type": {
+                                "kind": "NON_NULL",
+                                "name": null,
+                                "ofType": {
+                                    "kind": "SCALAR",
+                                    "name": "Int",
+                                    "ofType": null
+                                }
+                            },
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "items",
+                            "description": null,
+                            "args": [],
+                            "type": {
+                                "kind": "NON_NULL",
+                                "name": null,
+                                "ofType": {
+                                    "kind": "LIST",
+                                    "name": null,
+                                    "ofType": {
+                                        "kind": "OBJECT",
+                                        "name": "SectionRichText",
+                                        "ofType": null
+                                    }
+                                }
+                            },
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        }
+                    ],
+                    "inputFields": null,
+                    "interfaces": [],
+                    "enumValues": null,
+                    "possibleTypes": null
+                },
+                {
+                    "kind": "INPUT_OBJECT",
+                    "name": "SectionRichTextFilter",
+                    "description": null,
+                    "fields": null,
+                    "inputFields": [
+                        {
+                            "name": "sys",
+                            "description": null,
+                            "type": {
+                                "kind": "INPUT_OBJECT",
+                                "name": "SysFilter",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "contentfulMetadata",
+                            "description": null,
+                            "type": {
+                                "kind": "INPUT_OBJECT",
+                                "name": "ContentfulMetadataFilter",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "name_exists",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "Boolean",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "name",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "name_not",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "name_in",
+                            "description": null,
+                            "type": {
+                                "kind": "LIST",
+                                "name": null,
+                                "ofType": {
+                                    "kind": "SCALAR",
+                                    "name": "String",
+                                    "ofType": null
+                                }
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "name_not_in",
+                            "description": null,
+                            "type": {
+                                "kind": "LIST",
+                                "name": null,
+                                "ofType": {
+                                    "kind": "SCALAR",
+                                    "name": "String",
+                                    "ofType": null
+                                }
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "name_contains",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "name_not_contains",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "text_exists",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "Boolean",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "text_contains",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "text_not_contains",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "textAlignmnet_exists",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "Boolean",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "textAlignmnet",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "textAlignmnet_not",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "textAlignmnet_in",
+                            "description": null,
+                            "type": {
+                                "kind": "LIST",
+                                "name": null,
+                                "ofType": {
+                                    "kind": "SCALAR",
+                                    "name": "String",
+                                    "ofType": null
+                                }
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "textAlignmnet_not_in",
+                            "description": null,
+                            "type": {
+                                "kind": "LIST",
+                                "name": null,
+                                "ofType": {
+                                    "kind": "SCALAR",
+                                    "name": "String",
+                                    "ofType": null
+                                }
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "textAlignmnet_contains",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "textAlignmnet_not_contains",
+                            "description": null,
+                            "type": {
+                                "kind": "SCALAR",
+                                "name": "String",
+                                "ofType": null
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "OR",
+                            "description": null,
+                            "type": {
+                                "kind": "LIST",
+                                "name": null,
+                                "ofType": {
+                                    "kind": "INPUT_OBJECT",
+                                    "name": "SectionRichTextFilter",
+                                    "ofType": null
+                                }
+                            },
+                            "defaultValue": null
+                        },
+                        {
+                            "name": "AND",
+                            "description": null,
+                            "type": {
+                                "kind": "LIST",
+                                "name": null,
+                                "ofType": {
+                                    "kind": "INPUT_OBJECT",
+                                    "name": "SectionRichTextFilter",
+                                    "ofType": null
+                                }
+                            },
+                            "defaultValue": null
+                        }
+                    ],
+                    "interfaces": null,
+                    "enumValues": null,
+                    "possibleTypes": null
+                },
+                {
+                    "kind": "ENUM",
+                    "name": "SectionRichTextOrder",
+                    "description": null,
+                    "fields": null,
+                    "inputFields": null,
+                    "interfaces": null,
+                    "enumValues": [
+                        {
+                            "name": "name_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "name_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "textAlignmnet_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "textAlignmnet_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "sys_id_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "sys_id_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "sys_publishedAt_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "sys_publishedAt_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "sys_firstPublishedAt_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "sys_firstPublishedAt_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "sys_publishedVersion_ASC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        },
+                        {
+                            "name": "sys_publishedVersion_DESC",
+                            "description": null,
+                            "isDeprecated": false,
+                            "deprecationReason": null
+                        }
+                    ],
+                    "possibleTypes": null
+                },
+                {
                     "kind": "OBJECT",
                     "name": "ArticleOverview",
                     "description": "[See type definition](https://app.contentful.com/spaces/koizkh0ixa3t/content_types/articleOverview)",
@@ -51052,686 +52335,6 @@
                         },
                         {
                             "name": "backgroundColor_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_id_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_id_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_publishedAt_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_publishedAt_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_firstPublishedAt_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_firstPublishedAt_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_publishedVersion_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_publishedVersion_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        }
-                    ],
-                    "possibleTypes": null
-                },
-                {
-                    "kind": "INPUT_OBJECT",
-                    "name": "SectionBlogParagraphFilter",
-                    "description": null,
-                    "fields": null,
-                    "inputFields": [
-                        {
-                            "name": "image",
-                            "description": null,
-                            "type": {
-                                "kind": "INPUT_OBJECT",
-                                "name": "cfImageWithFocalPointNestedFilter",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "imageDesktop",
-                            "description": null,
-                            "type": {
-                                "kind": "INPUT_OBJECT",
-                                "name": "cfImageWithFocalPointNestedFilter",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "sys",
-                            "description": null,
-                            "type": {
-                                "kind": "INPUT_OBJECT",
-                                "name": "SysFilter",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "contentfulMetadata",
-                            "description": null,
-                            "type": {
-                                "kind": "INPUT_OBJECT",
-                                "name": "ContentfulMetadataFilter",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "name_exists",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "Boolean",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "name",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "String",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "name_not",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "String",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "name_in",
-                            "description": null,
-                            "type": {
-                                "kind": "LIST",
-                                "name": null,
-                                "ofType": {
-                                    "kind": "SCALAR",
-                                    "name": "String",
-                                    "ofType": null
-                                }
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "name_not_in",
-                            "description": null,
-                            "type": {
-                                "kind": "LIST",
-                                "name": null,
-                                "ofType": {
-                                    "kind": "SCALAR",
-                                    "name": "String",
-                                    "ofType": null
-                                }
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "name_contains",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "String",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "name_not_contains",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "String",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "description_exists",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "Boolean",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "description_contains",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "String",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "description_not_contains",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "String",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "image_exists",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "Boolean",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "imageDesktop_exists",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "Boolean",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "imagePosition_exists",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "Boolean",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "imagePosition",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "String",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "imagePosition_not",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "String",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "imagePosition_in",
-                            "description": null,
-                            "type": {
-                                "kind": "LIST",
-                                "name": null,
-                                "ofType": {
-                                    "kind": "SCALAR",
-                                    "name": "String",
-                                    "ofType": null
-                                }
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "imagePosition_not_in",
-                            "description": null,
-                            "type": {
-                                "kind": "LIST",
-                                "name": null,
-                                "ofType": {
-                                    "kind": "SCALAR",
-                                    "name": "String",
-                                    "ofType": null
-                                }
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "imagePosition_contains",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "String",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "imagePosition_not_contains",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "String",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "backgroundColor_exists",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "Boolean",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "backgroundColor",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "String",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "backgroundColor_not",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "String",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "backgroundColor_in",
-                            "description": null,
-                            "type": {
-                                "kind": "LIST",
-                                "name": null,
-                                "ofType": {
-                                    "kind": "SCALAR",
-                                    "name": "String",
-                                    "ofType": null
-                                }
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "backgroundColor_not_in",
-                            "description": null,
-                            "type": {
-                                "kind": "LIST",
-                                "name": null,
-                                "ofType": {
-                                    "kind": "SCALAR",
-                                    "name": "String",
-                                    "ofType": null
-                                }
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "backgroundColor_contains",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "String",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "backgroundColor_not_contains",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "String",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "buttonText_exists",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "Boolean",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "buttonText",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "String",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "buttonText_not",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "String",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "buttonText_in",
-                            "description": null,
-                            "type": {
-                                "kind": "LIST",
-                                "name": null,
-                                "ofType": {
-                                    "kind": "SCALAR",
-                                    "name": "String",
-                                    "ofType": null
-                                }
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "buttonText_not_in",
-                            "description": null,
-                            "type": {
-                                "kind": "LIST",
-                                "name": null,
-                                "ofType": {
-                                    "kind": "SCALAR",
-                                    "name": "String",
-                                    "ofType": null
-                                }
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "buttonText_contains",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "String",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "buttonText_not_contains",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "String",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "buttonUrl_exists",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "Boolean",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "buttonUrl",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "String",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "buttonUrl_not",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "String",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "buttonUrl_in",
-                            "description": null,
-                            "type": {
-                                "kind": "LIST",
-                                "name": null,
-                                "ofType": {
-                                    "kind": "SCALAR",
-                                    "name": "String",
-                                    "ofType": null
-                                }
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "buttonUrl_not_in",
-                            "description": null,
-                            "type": {
-                                "kind": "LIST",
-                                "name": null,
-                                "ofType": {
-                                    "kind": "SCALAR",
-                                    "name": "String",
-                                    "ofType": null
-                                }
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "buttonUrl_contains",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "String",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "buttonUrl_not_contains",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "String",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "isMobileImagePositionTop_exists",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "Boolean",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "isMobileImagePositionTop",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "Boolean",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "isMobileImagePositionTop_not",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "Boolean",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "OR",
-                            "description": null,
-                            "type": {
-                                "kind": "LIST",
-                                "name": null,
-                                "ofType": {
-                                    "kind": "INPUT_OBJECT",
-                                    "name": "SectionBlogParagraphFilter",
-                                    "ofType": null
-                                }
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "AND",
-                            "description": null,
-                            "type": {
-                                "kind": "LIST",
-                                "name": null,
-                                "ofType": {
-                                    "kind": "INPUT_OBJECT",
-                                    "name": "SectionBlogParagraphFilter",
-                                    "ofType": null
-                                }
-                            },
-                            "defaultValue": null
-                        }
-                    ],
-                    "interfaces": null,
-                    "enumValues": null,
-                    "possibleTypes": null
-                },
-                {
-                    "kind": "ENUM",
-                    "name": "SectionBlogParagraphOrder",
-                    "description": null,
-                    "fields": null,
-                    "inputFields": null,
-                    "interfaces": null,
-                    "enumValues": [
-                        {
-                            "name": "name_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "name_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "imagePosition_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "imagePosition_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "backgroundColor_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "backgroundColor_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "buttonText_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "buttonText_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "buttonUrl_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "buttonUrl_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "isMobileImagePositionTop_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "isMobileImagePositionTop_DESC",
                             "description": null,
                             "isDeprecated": false,
                             "deprecationReason": null
@@ -62238,323 +62841,6 @@
                         },
                         {
                             "name": "description_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_id_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_id_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_publishedAt_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_publishedAt_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_firstPublishedAt_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_firstPublishedAt_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_publishedVersion_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "sys_publishedVersion_DESC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        }
-                    ],
-                    "possibleTypes": null
-                },
-                {
-                    "kind": "OBJECT",
-                    "name": "SectionRichTextCollection",
-                    "description": null,
-                    "fields": [
-                        {
-                            "name": "total",
-                            "description": null,
-                            "args": [],
-                            "type": {
-                                "kind": "NON_NULL",
-                                "name": null,
-                                "ofType": {
-                                    "kind": "SCALAR",
-                                    "name": "Int",
-                                    "ofType": null
-                                }
-                            },
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "skip",
-                            "description": null,
-                            "args": [],
-                            "type": {
-                                "kind": "NON_NULL",
-                                "name": null,
-                                "ofType": {
-                                    "kind": "SCALAR",
-                                    "name": "Int",
-                                    "ofType": null
-                                }
-                            },
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "limit",
-                            "description": null,
-                            "args": [],
-                            "type": {
-                                "kind": "NON_NULL",
-                                "name": null,
-                                "ofType": {
-                                    "kind": "SCALAR",
-                                    "name": "Int",
-                                    "ofType": null
-                                }
-                            },
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "items",
-                            "description": null,
-                            "args": [],
-                            "type": {
-                                "kind": "NON_NULL",
-                                "name": null,
-                                "ofType": {
-                                    "kind": "LIST",
-                                    "name": null,
-                                    "ofType": {
-                                        "kind": "OBJECT",
-                                        "name": "SectionRichText",
-                                        "ofType": null
-                                    }
-                                }
-                            },
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        }
-                    ],
-                    "inputFields": null,
-                    "interfaces": [],
-                    "enumValues": null,
-                    "possibleTypes": null
-                },
-                {
-                    "kind": "INPUT_OBJECT",
-                    "name": "SectionRichTextFilter",
-                    "description": null,
-                    "fields": null,
-                    "inputFields": [
-                        {
-                            "name": "sys",
-                            "description": null,
-                            "type": {
-                                "kind": "INPUT_OBJECT",
-                                "name": "SysFilter",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "contentfulMetadata",
-                            "description": null,
-                            "type": {
-                                "kind": "INPUT_OBJECT",
-                                "name": "ContentfulMetadataFilter",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "name_exists",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "Boolean",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "name",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "String",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "name_not",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "String",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "name_in",
-                            "description": null,
-                            "type": {
-                                "kind": "LIST",
-                                "name": null,
-                                "ofType": {
-                                    "kind": "SCALAR",
-                                    "name": "String",
-                                    "ofType": null
-                                }
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "name_not_in",
-                            "description": null,
-                            "type": {
-                                "kind": "LIST",
-                                "name": null,
-                                "ofType": {
-                                    "kind": "SCALAR",
-                                    "name": "String",
-                                    "ofType": null
-                                }
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "name_contains",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "String",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "name_not_contains",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "String",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "text_exists",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "Boolean",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "text_contains",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "String",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "text_not_contains",
-                            "description": null,
-                            "type": {
-                                "kind": "SCALAR",
-                                "name": "String",
-                                "ofType": null
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "OR",
-                            "description": null,
-                            "type": {
-                                "kind": "LIST",
-                                "name": null,
-                                "ofType": {
-                                    "kind": "INPUT_OBJECT",
-                                    "name": "SectionRichTextFilter",
-                                    "ofType": null
-                                }
-                            },
-                            "defaultValue": null
-                        },
-                        {
-                            "name": "AND",
-                            "description": null,
-                            "type": {
-                                "kind": "LIST",
-                                "name": null,
-                                "ofType": {
-                                    "kind": "INPUT_OBJECT",
-                                    "name": "SectionRichTextFilter",
-                                    "ofType": null
-                                }
-                            },
-                            "defaultValue": null
-                        }
-                    ],
-                    "interfaces": null,
-                    "enumValues": null,
-                    "possibleTypes": null
-                },
-                {
-                    "kind": "ENUM",
-                    "name": "SectionRichTextOrder",
-                    "description": null,
-                    "fields": null,
-                    "inputFields": null,
-                    "interfaces": null,
-                    "enumValues": [
-                        {
-                            "name": "name_ASC",
-                            "description": null,
-                            "isDeprecated": false,
-                            "deprecationReason": null
-                        },
-                        {
-                            "name": "name_DESC",
                             "description": null,
                             "isDeprecated": false,
                             "deprecationReason": null
